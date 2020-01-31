@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import api from '../services/api'
+import api from '../services/api';
 
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 
@@ -14,7 +14,7 @@ export default class Main extends Component {
     page: 1, //paginas da api, começa por padrão com 1 
   };
 
-  componentDidMount() { //carrega conteudo automaticamente assim que ele é a pagina é iniciada
+  componentDidMount() { //carrega conteudo automaticamente assim que a pagina é iniciada
     this.loadProducts();
   }
 
@@ -48,7 +48,7 @@ export default class Main extends Component {
         style={styles.productButton} 
         onPress={() => {
           //para acessar as propriades dos componentes. Navigation é próprio do react. Navigate é para navegar para próx tela e mostrar as informações
-          this.props.navigation.navigate("Product", { product: item }) 
+          this.props.navigation.navigate("Product", { product: item });
         }}
         >
       <Text style={styles.productButtonText}>Acessar</Text> 
@@ -64,7 +64,7 @@ export default class Main extends Component {
           data={this.state.docs}
           keyExtractor={item => item._id} //id unico de cada produto
           renderItem={this.renderItem} //renderiza cada um dos itens em tela
-          onEndReached={this.loadMore}  //função automatimente disparada quando eu chegar no fim da lista
+          onEndReached={this.loadMore}  //função automaticamente disparada quando eu chegar no fim da lista
           onEndReachedThreshold= {0.1} //qual o percentual do fim da lista que quero chegar para começar a carregar mais itens (em numero decimal)
         />
       </View>
