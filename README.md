@@ -16,13 +16,10 @@ Quando o usuário clica em "Acessar" é apresentando na tela o repositório do G
 
 ## :computer: Tecnologias usadas:
 
-### NodeJS:
-
-- `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados.
-
 ### React Native:
 
 Além das tradicionais bibliotecas também foram utilizadas:
+- `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados.
 
 - `react-navigation`: Para o acesso as outras rotas criadas na aplicação;
 
