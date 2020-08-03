@@ -20,10 +20,13 @@ Quando o usuário clica em "Acessar" é apresentando na tela o repositório do G
 
 - `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados.
 
-
 ### React Native:
 
-- Além das tradicionais bibliotecas foram utilizadas as bibliotecas "react-navigation" para o acesso as outras rotas criadas na aplicação, "react-native-webview" para ser possível abrir a página do GitHub dentro do próprio aplicativo JSHunt, entre outras ferramentas.
+Além das tradicionais bibliotecas também foram utilizadas:
+
+- `react-navigation`: Para o acesso as outras rotas criadas na aplicação;
+
+- `react-native-webview`: Para ser possível abrir a página do GitHub dentro do próprio aplicativo JSHunt.
 
 
 ## :bulb: Telas
