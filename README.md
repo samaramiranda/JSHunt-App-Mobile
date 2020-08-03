@@ -1,5 +1,5 @@
 <h1 align="center">
-  📱 JSHunt
+  📱 JSHunt Mobile
 </h1>
 
 
