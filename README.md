@@ -7,7 +7,7 @@
 
 Este é o JSHunt, um aplicativo que lista respositórios do GitHub e que foi desenvolvido durante o curso Starter React Native da Rocketseat.
 
-O aplicativo busca em uma API, já desenvolvida no curso de Starter NodeJS, os repositórios já cadastrados e por meio de uma FlatList com scroll infinito exibe em tela uma lista com todos eles. Cada respositório cadastrado possuí os seguintes dados:
+O aplicativo busca em uma API, já desenvolvida no curso de Starter NodeJS, os repositórios cadastrados e por meio de uma FlatList com scroll infinito exibe em tela uma lista com todos eles. Cada respositório cadastrado possuí os seguintes dados:
 - Título do repositório;
 - Breve descrição sobre o conteúdo dele.
 
@@ -19,7 +19,7 @@ Quando o usuário clica em "Acessar" é apresentando na tela o repositório do G
 ### React Native:
 
 Além das tradicionais bibliotecas também foram utilizadas:
-- `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados.
+- `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados;
 
 - `react-navigation`: Para o acesso as outras rotas criadas na aplicação;
 
